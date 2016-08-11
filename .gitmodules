@@ -1,0 +1,3 @@
+[submodule "minosxfo/src/lib/libvita2d"]
+	path = minosxfo/src/lib/libvita2d
+	url = https://github.com/xerpi/libvita2d.git
