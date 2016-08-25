@@ -12,3 +12,5 @@ function getSDK {
   echo "decompressing finished"
   ls psvsdk
 }
+
+getSDK
