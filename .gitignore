@@ -1,2 +1,3 @@
 .DS_Store
 .gcc-flags.json
+doc/*
