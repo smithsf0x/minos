@@ -4,11 +4,12 @@ PSVSDK_URL="https://bintray.com/vitasdk/vitasdk/download_file?file_path=vitasdk-
 
 function getSDK {
   echo "Download SDK:"
-  curl "$PSVSDK_URL" > sdk.tar.bz2
+  curl -o sdk.tar.bz2 "$PSVSDK_URL"
   echo "Donwload Finished"
 
   echo "untar and unzip"
-  mkdir psvsdk && tar jxf sdk.tar.bz2 -C psvsdk
+  mkdir psvsdk
+  tar jxf sdk.tar.bz2 -C psvsdk
   echo "decompressing finished"
   ls psvsdk
 }
