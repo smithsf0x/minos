@@ -4,3 +4,5 @@ all:
 	cd src && make
 clean:
 	cd src && make clean
+test:
+	echo "test"
