@@ -1,5 +1,8 @@
 language: c
 
+before_script: 
+    cd minos
+
 install:
     - make test 
 
